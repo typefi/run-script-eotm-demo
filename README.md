@@ -1,6 +1,6 @@
 # run-script-eotm-demo
 
-Developer walkthrough of how to work with Typefi Run Script.
+Developer walkthrough that shows how to work with Typefi Run Script.
 
 ## Setup
 
@@ -14,5 +14,5 @@ Developer walkthrough of how to work with Typefi Run Script.
 ## Running
 
 1. `$ node app.js`
-2. Navigate to [localhost:3000/app.html](http://localhost:3000/app.html), enter a name and click the Generate Certificate button.
-3. All going well, you should now see a beautiful, PDF certificate.
+2. Navigate to [localhost:3000/app.html](http://localhost:3000/app.html), enter a name and click the _Generate Certificate_ button.
+3. All going well, you should now see your beautiful, PDF certificate.
