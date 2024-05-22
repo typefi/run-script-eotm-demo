@@ -1,0 +1,18 @@
+{
+  "name": "eotm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eotm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node eotm.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1621.0",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
+}

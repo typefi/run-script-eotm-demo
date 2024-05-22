@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee of the Month Certificate Generator</title>
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body onload="document.getElementById('name').select();">
+  <div class="container">
+    <h1>Employee of the Month Certificate Generator</h1>
+    <form method="post" action="/generate">
+      <input type="text" id="name" name="name" placeholder="Enter employee's name">
+      <input type="submit" value="Generate Certificate"></input>
+    </form>
+  </div>
+</body>
+
+</html>
