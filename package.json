@@ -12,7 +12,7 @@
   "dependencies": {
     "aws-sdk": "^2.1621.0",
     "axios": "^1.6.8",
-    "body-parser": "^1.20.2",
-    "express": "^4.19.2"
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0"
   }
 }
