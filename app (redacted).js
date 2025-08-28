@@ -53,13 +53,13 @@ app.post('/generate', async (req, res) => {
     };
 
     const auth = { username: runscriptKey, password: runscriptSecret };
-    let url = 'https://runscript.typefi.com/api/v1/job';
+    let url = 'https://runscript.typefi.com/api/v2/job';
     response = await axios.post(url, data, { auth: auth, 'Content-Type': 'application/json' });
     const jobId = response.data._id;
     console.log(`Job ${jobId}.`);
 
     // poll every second for job status, break when complete
-    url = 'https://runscript.typefi.com/api/v1/job/' + jobId;
+    url = 'https://runscript.typefi.com/api/v2/job/' + jobId;
     for (;;) {
       response = await axios.get(url, { auth: auth });
       console.log(response.data.status);
