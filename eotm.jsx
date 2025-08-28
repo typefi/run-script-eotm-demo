@@ -8,5 +8,5 @@ for (var i = fields.length - 1; i >= 0; i--) {
     fields[i].contents = app.scriptArgs.getValue('Name');
   }
 }
-document.exportFile(ExportFormat.PDF_TYPE, new File('certificate.pdf'));
+document.exportFile(ExportFormat.PDF_TYPE, new File('certificate.pdf'), app.pdfExportPresets.itemByName('[High Quality Print]'));
 document.close(SaveOptions.NO);
